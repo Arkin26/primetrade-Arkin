@@ -1,3 +1,7 @@
+Live: https://primetrade-arkin.vercel.app/
+Credentials: admin@example.com, PSWRD = change-me
+
+
 # Primetrade
 
 Primetrade is a full stack task management application built as a scalable REST API with authentication, role based access control, and a React frontend for testing and demo.
