@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+  --bg-main: #faf9f6;
+  --bg-container: #f2efe9;
+  --bg-secondary: #ebe7df;
+  --bg-white: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b6b6b;
+  --text-muted: #9a9a9a;
+  --border: #1a1a1a;
+  --border-light: #d8d4cc;
+  --primary: #000000;
+  --accent: #ff6b35;
+  --accent-soft: #fff0ea;
+  --success: #1a7f4b;
+  --success-soft: #e8f5ee;
+  --error: #c0392b;
+  --error-soft: #fdecea;
+  --radius-pill: 9999px;
+  --radius-card: 20px;
+  --radius-sm: 12px;
+  --shadow-soft: 0 2px 16px rgba(0, 0, 0, 0.04);
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg-main);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
